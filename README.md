@@ -14,5 +14,7 @@ host/customer/delete/{id} for deleting the existing customer
 
 host/customer/get/{id} for search for customer using the id
 
+host/h2home for database, password=pass
+
 
 
