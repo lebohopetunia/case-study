@@ -19,7 +19,8 @@ public class Customer {
     private String name;
     private String surname;
     private String product;
-    private double price;
+    @Column(unique = true)
+    private String idNumber;
 
     public Integer getId() {
         return id;
