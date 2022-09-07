@@ -1,8 +1,7 @@
 package com.java;
 
-import com.java.model.Customer;
+import com.java.entity.Customer;
 import com.java.repo.CustomerRepo;
-import org.junit.jupiter.api.Assumptions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

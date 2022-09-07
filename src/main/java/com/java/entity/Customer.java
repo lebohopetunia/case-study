@@ -1,4 +1,4 @@
-package com.java.model;
+package com.java.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -22,7 +22,5 @@ public class Customer {
     @Column(unique = true)
     private String idNumber;
 
-    public Integer getId() {
-        return id;
-    }
+
 }
